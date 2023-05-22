@@ -1,0 +1,28 @@
+:root{
+    --x-padding:15px;
+}
+@media(max-width:992px){
+    /* start first nav */
+    .first-nav{
+        justify-content: center;
+        padding: 7px var(--x-padding);
+    }
+    .first-nav .left{
+        display: none;
+    }
+    .first-nav .right .shop{
+        display: flex;
+        gap: 5px;
+    }
+    .first-nav .right{
+        gap: 5px;
+    }
+    .first-nav .right .account{
+        padding: 10px 5px;
+    }
+    .first-nav .right .account .drop-list.show{
+        right: -60px;
+        z-index: 3;
+    }
+    /* end first nav */
+}
